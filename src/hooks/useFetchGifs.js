@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import { getGifs } from "../helpers/getGifs";
 
 //custome Hook 
-export const useFetchGrifs = ( category ) => {
+export const useFetchGifs = ( category ) => {
     const [images, setImages] = useState([]);
     const [isLoading, setiIsLoading] = useState(true);
     
